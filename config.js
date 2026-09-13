@@ -1,6 +1,5 @@
 // Example auth configuration
-const ADMIN_SESSION_TOKEN =
-  "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbi10ZXN0LWZpeHR1cmUifQ.abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJ";
+const ADMIN_SESSION_TOKEN = process.env.ADMIN_SESSION_TOKEN;
 
 function isAdmin(token) {
   return token === ADMIN_SESSION_TOKEN;
