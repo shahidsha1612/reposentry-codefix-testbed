@@ -1,0 +1,9 @@
+{
+  "name": "reposentry-codefix-testbed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fixture only - not a real application. Do not install.",
+  "dependencies": {
+    "lodash": "4.17.15"
+  }
+}
