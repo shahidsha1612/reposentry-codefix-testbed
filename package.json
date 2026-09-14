@@ -4,6 +4,6 @@
   "private": true,
   "description": "Fixture only - not a real application. Do not install.",
   "dependencies": {
-    "lodash": "4.17.15"
+    "lodash": "4.18.0"
   }
 }
